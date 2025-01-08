@@ -1,0 +1,15 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "name": "Kylian Beauvais",
+    "jobTitle": "Développeur Web Full-Stack en BTS SIO",
+    "url": "https://kyan.alwaysdata.net",
+    "sameAs": [
+      "https://www.linkedin.com/in/kylian-beauvais"
+    ],
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Campus Saint aspais"
+    }
+  }
+  
