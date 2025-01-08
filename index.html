@@ -1,1 +1,406 @@
-echo "Mon premier html pour git"
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Sarina&display=swap" rel="stylesheet">
+    <link rel="Website Icon" type="png" href="./asset/img/logo.png">
+    <link rel="stylesheet" href="./asset/font/font.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio - BEAUVAIS Kylian Full-Stack</title>
+
+
+    <!-- SEO -->
+    <meta name="description" content="Portfolio de BEAUVAIS Kylian, développeur web full-stack en BTS SIO. Découvrez mes projets, compétences et expériences professionnelles.">
+    <meta name="keywords" content="portfolio développeur web, full-stack, BTS SIO, projets web, HTML, CSS, JavaScript, PHP, C#, SQL">
+    <meta name="author" content="BEAUVAIS Kylian">
+
+     <!-- Social Network -->
+    <meta property="og:title" content="Portfolio | BEAUVAIS Kylian - Développeur Full-Stack">
+    <meta property="og:description" content="Découvrez mes projets, compétences et expériences professionnelles en développement web.">
+    <meta property="og:image" content="https://kyan.alwaysdata.net/asset/img/preview.png">
+    <meta property="og:url" content="https://kyan.alwaysdata.net">
+    <meta property="og:type" content="website">
+      
+</head>
+<body >
+
+        <!-- NAVBAR -->
+        <nav class="navbar">
+            <a href="#home" class="homeBar page logo relative" data-page="home" id="home-link">
+                <b class="sarina logoK navbarWhite">K</b>
+                <b class="sarina logoB navbarWhite">B</b>
+            </a>
+
+            <!--<img class="img-logo" src="./asset/img/logo.svg" alt="">-->
+            <div class="menu">
+                <a href="#lab"       class="mainBar page navbarWhite" data-page="lab" id="lab-link">LAB</a>
+                <a href="#about"     class="mainBar page navbarWhite" data-page="about" id="about-link">À PROPOS</a>
+                <a href="#it"class="mainBar page navbarWhite" data-page="it" id="it-link">INFORMATIQUE</a>
+            </div>
+        </nav>
+        <!-- HOME -->
+        <div id="home" class="page-content overflowY">
+        <div class="scroll-container" id="scroll-container">
+            <div class="item item-home flex-column relative ">
+                <div class="home-page"><p class="rien">&</p></div>
+                <div class="add">
+                    <h1 class="item-title center">PORTFOLIO</h1>
+                    <div class="item-text center">
+                        <h4>FAIT</h4>
+                        <h4>PAR</h4>
+                        <h4>BEAUVAIS</h4>
+                        <h4>KYLIAN</h4>
+                    </div>
+                </div>
+                <footer class="bottom d-none">
+                    <div class="footer-item flex-row grid-2-mob">
+                        <div class="">
+                            <a class="footer-link" href="./asset/img/cv.pdf" target="_blank"><p>Curriculum Vitae</p></a>
+                            <a class="footer-link" href="./asset/img/lettre.pdf" target="_blank"><p>Lettre de Motivation</p></a>
+                        </div>
+                        <div class="center-footer">
+                            <a class="" href="mailto:kylianbeauvais18@gmail.com"><img src="asset/img/mail.png" alt=""></a> 
+                            <a class="" href="https://www.linkedin.com/in/kylian-beauvais" target="_blank"><img src="asset/img/linkedin-logo.png" alt=""></a> 
+                            <a class="" href="tel:+33608409525"><img src="asset/img/telephone-handle-silhouette.png" alt=""></a> 
+                        </div>
+                        <div class="down-mob">
+                            <p>&copy;<span class="year-"></span> Beauvais. Tous droits réservés.</p>
+                        </div>
+
+                    </div>
+
+                </footer>
+
+            </div>
+
+            <div class="item item-aspais space-aspais flex-row center">
+                <a href="https://institutionsaintaspais.fr/campus/" target="_blank"><img class="img-camp" src="./asset/img/9057f14e-6690-4cf8-bb50-67598f914bac.jpg" alt=""></a>
+                <div>
+                    <h1 class="size-l-text left">BTS</h1>
+                <div class="flex-row ">
+                    <a href="https://institutionsaintaspais.fr/campus/" target="_blank"><img class="img-aspais- left" src="./asset/img/campus.svg" alt="Saint-Aspais"></a>
+                    <h1 class="size-l-text">- SIO</h1>
+                </div>
+                <div class="flex-row">
+                    <h1 class="size-l-text left">OPTION</h1>
+                </div>
+                <h1 class="size-l-text left">SLAM</h1>
+                </div>
+            </div>
+            
+            <div class="item item-end flex-column relative">
+                <footer class="bottom">
+                    <div class="footer-item flex-row grid-2-mob">
+                        <div class="">
+                            <a class="footer-link" href="./asset/img/cv.pdf" target="_blank"><p>Curriculum Vitae</p></a>
+                            <a class="footer-link" href="./asset/img/lettre.pdf" target="_blank"><p>Lettre de Motivation</p></a>
+                        </div>
+                        <div class="center-footer">
+                            <a class="" href="mailto:kylianbeauvais18@gmail.com"><img src="asset/img/mail.png" alt=""></a> 
+                            <a class="" href="https://www.linkedin.com/in/kylian-beauvais" target="_blank"><img src="asset/img/linkedin-logo.png" alt=""></a> 
+                            <a class="" href="tel:+33608409525"><img src="asset/img/telephone-handle-silhouette.png" alt=""></a> 
+                        </div>
+                        <div class="down-mob">
+                            <p>&copy;<span class="year-"></span> Beauvais. Tous droits réservés.</p>
+                        </div>
+
+                    </div>
+
+                </footer>
+            </div>
+        </div>
+        </div>
+
+        <!-- LAB -->
+        <div id="lab" class="page-content overflowX" style="display: none;">
+        <div class="item item-home flex-column relative">
+            <div class="home-page"><p class="rien">&</p></div>
+            <div class="add">
+                <h1 class="item-title center">LABORATOIRE</h1>
+                <div class="item-text center">
+                    <h4>PROJETS</h4>
+                    <h4>INFORMATIQUE</h4>
+                </div>
+            </div>
+            <footer class="bottom d-none">
+                <div class="footer-item flex-row grid-2-mob">
+                    <div class="">
+                        <a class="footer-link" href="./asset/img/cv.pdf" target="_blank"><p>Curriculum Vitae</p></a>
+                        <a class="footer-link" href="./asset/img/lettre.pdf" target="_blank"><p>Lettre de Motivation</p></a>
+                    </div>
+                    <div class="center-footer">
+                        <a class="" href="mailto:kylianbeauvais18@gmail.com"><img src="asset/img/mail.png" alt=""></a> 
+                        <a class="" href="https://www.linkedin.com/in/kylian-beauvais" target="_blank"><img src="asset/img/linkedin-logo.png" alt=""></a> 
+                        <a class="" href="tel:+33608409525"><img src="asset/img/telephone-handle-silhouette.png" alt=""></a> 
+                    </div>
+                    <div class="down-mob">
+                        <p>&copy;<span class="year-"></span> Beauvais. Tous droits réservés.</p>
+                    </div>
+
+                </div>
+
+            </footer>
+
+        </div>
+
+        <div class="item item-lab-lacrea item-top flex-column center relative">
+            <a class="center" href="https://lacreavegetale.com" target="_blank"><video loop autoplay muted class="img-lacrea" src="./asset/video/pc.mp4" alt=""></video></a>
+            <div class="lab-lacrea-div flex-column">
+                <h1 class="z-direction lab-lacrea-text size-m-text">LA CRÉA</h1>
+                <h1 class="z-direction lab-lacrea-text size-m-text">VÉGÉTALE</h1>
+            </div>
+        </div>
+
+        <div class="item item-lab-co grid-2 grid-2-">
+            <div class="">
+                <a href="https://cofoiturage.alwaysdata.net" target="_blank"><img class="img-car-" src="./asset/img/car_side.png" alt=""></a>
+                <h1 class="size-s-text text-co-black lab-co-text">trajet</h1>
+                <h1 class="size-s-text text-co-black lab-co-text">saint</h1>
+                <h1 class="size-s-text text-co-black lab-co-text">aspais.</h1>
+            </div>
+            <div class="right">
+                <h1 class="size-s-text text-co-black lab-co-right">Covoiturage</h1>
+                <a href="https://cofoiturage.alwaysdata.net" target="_blank"><img class="img-car" src="./asset/img/car.png" alt=""></a>
+            </div>
+        </div>
+
+        <div class="item item-lab-ana">
+            <div class="grid-2 grid-2-">
+                <div class="psy-left">
+                    <div class="reverse-mob">
+                        <div class="psy-small-text ">
+                            <h1 class="psy-color size-sx-text">SITE WEB POUR</h1>
+                            <h1 class="psy-color size-sx-text">SOPHROLOGUE</h1>
+                        </div>
+                        <h1 class="psy-color size-m-text">Analañ</h1>
+                    </div>
+                    <video loop autoplay muted class="video-psy" src="./asset/video/psycho.mp4"></video>
+                </div>
+                <div class="psy-right">
+                    <h1 class="psy-color size-s-text right">Stress, douleur,</h1>
+                    <h1 class="psy-color size-s-text right">addiction.</h1>
+                    <a href="http://kylebive.alwaysdata.net"><img class="img-psy" src="./asset/img/psy.jpg" alt=""></a>
+                    <h1 class="psy-color size-m-text right">Sophro</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="item item-end flex-column relative">
+            <footer class="bottom">
+                <div class="footer-item flex-row grid-2-mob">
+                    <div class="">
+                        <a class="footer-link" href="./asset/img/cv.pdf" target="_blank"><p>Curriculum Vitae</p></a>
+                        <a class="footer-link" href="./asset/img/lettre.pdf" target="_blank"><p>Lettre de Motivation</p></a>
+                    </div>
+                    <div class="center-footer">
+                        <a class="" href="mailto:kylianbeauvais18@gmail.com"><img src="asset/img/mail.png" alt=""></a> 
+                        <a class="" href="https://www.linkedin.com/in/kylian-beauvais" target="_blank"><img src="asset/img/linkedin-logo.png" alt=""></a> 
+                        <a class="" href="tel:+33608409525"><img src="asset/img/telephone-handle-silhouette.png" alt=""></a> 
+                    </div>
+                    <div class="down-mob">
+                        <p>&copy;<span class="year-"></span> Beauvais. Tous droits réservés.</p>
+                    </div>
+
+                </div>
+
+            </footer>
+        </div>
+        </div>
+
+        <!-- ABOUT -->
+        <div id="about" class="page-content overflowX" style="display: none;">
+            <div class="item item-home flex-column relative">
+                <div class="home-page"><p class="rien">&</p></div>
+                <div class="add">
+                    <h1 class="item-title center">À PROPOS</h1>
+                    <div class="item-text center">
+                        <h4>BEAUVAIS</h4>
+                        <h4>KYLIAN</h4>
+                    </div>
+                </div>
+                <footer class="bottom d-none">
+                    <div class="footer-item flex-row grid-2-mob">
+                        <div class="">
+                            <a class="footer-link" href="./asset/img/cv.pdf" target="_blank"><p>Curriculum Vitae</p></a>
+                            <a class="footer-link" href="./asset/img/lettre.pdf" target="_blank"><p>Lettre de Motivation</p></a>
+                        </div>
+                        <div class="center-footer">
+                            <a class="" href="mailto:kylianbeauvais18@gmail.com"><img src="asset/img/mail.png" alt=""></a> 
+                            <a class="" href="https://www.linkedin.com/in/kylian-beauvais" target="_blank"><img src="asset/img/linkedin-logo.png" alt=""></a> 
+                            <a class="" href="tel:+33608409525"><img src="asset/img/telephone-handle-silhouette.png" alt=""></a> 
+                        </div>
+                        <div class="down-mob">
+                            <p>&copy;<span class="year-"></span> Beauvais. Tous droits réservés.</p>
+                        </div>
+
+                    </div>
+
+                </footer>
+
+            </div>
+            <div class="item grid-top item-top item-about">
+                <div class="flex-row flex-row-">
+                    <img class="img-laptop" src="./asset/img/laptop.png" alt="">
+                <div class="grid-bottom ">
+                    <div></div>
+                    <div class="">
+                        <h1 class="size-xm-text dev-text">Développeur</h1>
+                        <h1 class="size-xm-text dev-text">Fullstack</h1>
+                    </div>
+                </div>
+                </div>
+                <h1 class="dev-years center center- size-xl-text"><span class="age-- age-"></span> ans</h1>
+
+            </div>
+            <div class="item item-hard flex-column">
+                <div class="flex-row hard center">
+                    <h1 class="size-xl-text">HARD</h1>
+                    <img class="img-sticker" src="./asset/img/stickers.png" alt="sticker">
+                </div>
+                <h1 class="size-xl-text">SKILLS</h1>
+
+            </div>
+            <div class="item item-aspais space-aspais flex-row flex-row- center">
+                <a href="https://institutionsaintaspais.fr/campus/" target="_blank"><img class="img-camp-" src="./asset/img/9057f14e-6690-4cf8-bb50-67598f914bac.jpg" alt=""></a>
+                <div class="">
+                    <h1 class="size-xm-text left">BTS</h1>
+                <div class="flex-row ">
+                    <a href="https://institutionsaintaspais.fr/campus/" target="_blank"><img class="img-aspais left" src="./asset/img/campus.svg" alt="Saint-Aspais"></a>
+                    <h1 class="size-xm-text">- SIO</h1>
+                </div>
+                <div class="flex-row">
+                    <h1 class="size-xm-text left">OPTION</h1>
+                </div>
+                <h1 class="size-xm-text left">SLAM</h1>
+                </div>
+            </div>
+            <div class="item item-about grid-top">
+                <div class="grid-2">
+                    <div class="intern-text-">
+                        <h1 class="size-xm-text intern-text intern-color">Stage</h1>
+                        <video loop autoplay muted class="video-intern" src="./asset/video/workplace.mp4"></video>
+                        <h1 class="intern-color size-s-text">6 semaines,</h1>
+                        <h1 class="intern-color size-s-text">comme Ingénieur</h1>
+                        <h1 class="intern-color size-s-text">Projet</h1>
+                    </div>
+                    <div>
+                        <a href="https://www.nxo.eu"><img class="img-nxo" src="./asset/img/nxo.png" alt=""></a>
+                        <ul class="intern-ul">
+                            <li class="size-xs-text">Migration d'une entreprise</li>
+                            <li class="size-xs-text">Récupération de configuration OXO</li>
+                            <li class="size-xs-text">Maintenance de Switch</li>
+                        </ul>
+                    </div>
+                    
+                    
+                </div>
+
+            </div>
+            <div class="item item-end flex-column relative">
+                <footer class="bottom">
+                    <div class="footer-item flex-row grid-2-mob">
+                        <div class="">
+                            <a class="footer-link" href="./asset/img/cv.pdf" target="_blank"><p>Curriculum Vitae</p></a>
+                            <a class="footer-link" href="./asset/img/lettre.pdf" target="_blank"><p>Lettre de Motivation</p></a>
+                        </div>
+                        <div class="center-footer">
+                            <a class="" href="mailto:kylianbeauvais18@gmail.com"><img src="asset/img/mail.png" alt=""></a> 
+                            <a class="" href="https://www.linkedin.com/in/kylian-beauvais" target="_blank"><img src="asset/img/linkedin-logo.png" alt=""></a> 
+                            <a class="" href="tel:+33608409525"><img src="asset/img/telephone-handle-silhouette.png" alt=""></a> 
+                        </div>
+                        <div class="down-mob">
+                            <p>&copy;<span class="year-"></span> Beauvais. Tous droits réservés.</p>
+                        </div>
+
+                    </div>
+
+                </footer>
+            </div>
+        </div>
+
+        <!-- IT -->
+        <div id="it" class="page-content overflowX" style="display: none;">
+            <div class="item item-home flex-column relative">
+                <div class="home-page"><p class="rien">&</p></div>
+                <div class="add">
+                    <h1 class="item-title center">INFORMATIQUE</h1>
+                    <div class="item-text-">
+                        <h4 class="center">ARCHIVE</h4>
+                    </div>
+                </div>
+                <footer class="bottom d-none">
+                    <div class="footer-item flex-row grid-2-mob">
+                        <div class="">
+                            <a class="footer-link" href="./asset/img/cv.pdf" target="_blank"><p>Curriculum Vitae</p></a>
+                            <a class="footer-link" href="./asset/img/lettre.pdf" target="_blank"><p>Lettre de Motivation</p></a>
+                        </div>
+                        <div class="center-footer ">
+                            <a class="" href="mailto:kylianbeauvais18@gmail.com"><img src="asset/img/mail.png" alt=""></a> 
+                            <a class="" href="https://www.linkedin.com/in/kylian-beauvais" target="_blank"><img src="asset/img/linkedin-logo.png" alt=""></a> 
+                            <a class="" href="tel:+33608409525"><img src="asset/img/telephone-handle-silhouette.png" alt=""></a> 
+                        </div>
+                        <div class="down-mob">
+                            <p>&copy;<span class="year-"></span> Beauvais. Tous droits réservés.</p>
+                        </div>
+
+                    </div>
+
+                </footer>
+
+            </div>
+
+            <div class="item item-top item-monitoring flex-column">
+                <h1 class="center size-m-text color-monitoring">test haut</h1>
+                <div class="grid-2">
+                    <a href="#monitoring" class="div-monitoring">
+                        <img class="img-monitoring" src="./asset/img/f66c2d3d-4357-4b66-8891-7572482e5694.jpg" alt="">
+                        <h1 class="center">test gauche</h1>
+                    </a>
+                    <a href="#process" class="div-monitoring">
+                        <img class="img-process" src="./asset/img/f66c2d3d-4357-4b66-8891-7572482e5694.jpg" alt="">
+                        <h1 class="center"> test droit</h1>
+                    </a>
+                </div>
+                <h1 class="center size-m-text color-monitoring">test bas</h1>
+            </div>
+
+            <div class="item item-end flex-column relative">
+                <footer class="bottom">
+                    <div class="footer-item flex-row grid-2-mob">
+                        <div class="">
+                            <a class="footer-link" href="./asset/img/cv.pdf" target="_blank"><p>Curriculum Vitae</p></a>
+                            <a class="footer-link" href="./asset/img/lettre.pdf" target="_blank"><p>Lettre de Motivation</p></a>
+                        </div>
+                        <div class="center-footer">
+                            <a class="" href="mailto:kylianbeauvais18@gmail.com"><img src="asset/img/mail.png" alt=""></a> 
+                            <a class="" href="https://www.linkedin.com/in/kylian-beauvais" target="_blank"><img src="asset/img/linkedin-logo.png" alt=""></a> 
+                            <a class="" href="tel:+33608409525"><img src="asset/img/telephone-handle-silhouette.png" alt=""></a> 
+                        </div>
+                        <div class="down-mob">
+                            <p>&copy;<span class="year-"></span> Beauvais. Tous droits réservés.</p>
+                        </div>
+
+                    </div>
+
+                </footer>
+            </div>
+        </div>
+
+<script src="./script.js">
+
+  fetch('structured-data.json')
+    .then(response => response.json())
+    .then(data => {
+      const script = document.createElement('script');
+      script.type = 'application/ld+json';
+      script.text = JSON.stringify(data);
+      document.head.appendChild(script);
+    })
+    .catch(error => console.error('Erreur lors du chargement des données structurées :', error));
+
+    </script>
+</body>
+</html>
