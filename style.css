@@ -376,7 +376,7 @@ footer div {
 .lab-lacrea-div {
     position: absolute;
     text-align: center;
-    gap: 220px;
+    gap: 230px;
 }
 
 .lab-lacrea-text {
@@ -438,7 +438,8 @@ footer div {
 }
 
 .img-psy {
-    height: 60vh;
+    height: auto;
+    width: 100%;
 }
 
 .psy-left {
@@ -587,6 +588,11 @@ footer div {
     flex-direction: column;
 }
 
+.flex-column- {
+    display: flex;
+    flex-direction: row;
+}
+
 
 .item-title {
     font-size: 2.5em;
@@ -608,7 +614,7 @@ footer div {
 
 .item-hard {
     justify-content:start;
-    margin: -200px 0;
+    margin: -350px 0;
 }
 
 .item-end {
@@ -628,6 +634,7 @@ footer {
     bottom: 0;
     z-index: 11;
     font-weight: bold;
+    padding: 0 10px 25px 10px;
 }
 
 footer img {
@@ -651,8 +658,8 @@ footer div {
 }
 
 .down-mob {
-    font-size: 6px;
-    margin-top: 10px;
+    font-size: 9px;
+    margin-top: 20px;
 }
 
 
@@ -660,7 +667,7 @@ footer div {
 /* ABOUT */
 
 .age--{
-    margin-right: 10px;
+    margin: 0 15px 0 30px;
 }
 
 /* IT */
@@ -798,6 +805,18 @@ footer div {
     margin: 30px;
 }
 
+.space-aspais{
+    margin: 50px 0 -250px 0 ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.m-aspais{
+    margin: 0 0px 0 30px ;
+}
+
 .img-nxo {
     height: auto;
     width: 100%;
@@ -838,7 +857,7 @@ footer div {
 }
 
 .hard {
-    margin-top: 400px;
+    margin-top: 430px;
 }
 
 .dev-text {
