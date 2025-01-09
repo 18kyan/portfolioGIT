@@ -126,6 +126,15 @@ h1 {
     font-size: 2rem;
 }
 
+.item- {
+    flex: 0 0 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+}
+
 .center {
     display: flex;
     justify-content: center;
@@ -179,7 +188,7 @@ h1 {
 }
 
 .item-hard {
-    background-color: var(--blue);
+    background-color: var(--green);
 }
 
 .item-end {
@@ -484,7 +493,7 @@ footer div {
 }
 
 .hard {
-    margin-top: 200px;
+    margin: 30% 0 0 0;
 }
 
 .dev-text {
@@ -561,7 +570,13 @@ footer div {
 /* Item Styles */
 .item {
     flex: 0 0 100%;
-    min-height: 100vh;
+    min-height: 100%;
+    font-size: 1rem;
+}
+
+.item- {
+    flex: 0 0 100%;
+    min-height: 50%;
     font-size: 1rem;
 }
 
@@ -618,7 +633,7 @@ footer div {
 
 .item-hard {
     justify-content:start;
-    margin: -300px 0 -250px 0;
+    height: 50% !important;
 }
 
 .item-end {
@@ -629,6 +644,10 @@ footer div {
 .item-about {
     position: relative;
     z-index: 10;
+}
+
+.hard{
+    margin: 5% 0 0 0;
 }
 
 /* Footer Styles */
@@ -810,7 +829,7 @@ footer div {
 }
 
 .space-aspais{
-    margin: 50px 0 -250px 0 ;
+    margin: 30px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -858,10 +877,6 @@ footer div {
     width: 100%;
     object-fit: cover;
     width: 100%;
-}
-
-.hard {
-    margin-top: 430px;
 }
 
 .dev-text {
