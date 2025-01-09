@@ -542,6 +542,10 @@ footer div {
 
 /* Page Content Styles */
 
+.overflowX {
+    overscroll-behavior:initial;
+    -webkit-font-smoothing: antialiased;
+}
 
 .overflowY {
     display: flex;
