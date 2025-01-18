@@ -97,7 +97,7 @@ afficherAnnee();
 
 
 function isMobile() {
-  return /iPhone|iPad|iPod|Android/i.test(navigator.userAgent) || window.innerWidth <= 768;
+  return /iPhone|iPad|iPod|Android/i.test(navigator.userAgent) || window.matchMedia("(max-width: 768px)").matches;
 }
 
 const video = document.querySelector('video');
@@ -105,7 +105,10 @@ if (video && isMobile()) {
   video.removeAttribute('loop');
   video.removeAttribute('autoplay');
   video.removeAttribute('muted');
-  video.pause();
+
+  video.addEventListener('play', () => {
+    video.pause(); // Assurez-vous d'arrêter la vidéo immédiatement si elle commence
+  });
 }
 
 });

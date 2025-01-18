@@ -20,6 +20,7 @@ body {
     --green: #21693E;
     --off-white: rgb(236, 228, 215);
     --red: rgb(186, 45, 60);
+    --grey: #a1a1a1;
 }
 
 h1 {
@@ -135,6 +136,15 @@ h1 {
     font-size: 2rem;
 }
 
+.item-- {
+    flex: 0 0 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+}
+
 .center {
     display: flex;
     justify-content: center;
@@ -180,15 +190,11 @@ h1 {
 }
 
 .item-home {
-    background-color: #2ecc71;
-}
-
-.item-aspais {
-    background-color: var(--blue);
-}
-
-.item-hard {
-    background-color: var(--green);
+    background-image: url(./asset/video/keyboard\ 60fps.mp4);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
 }
 
 .item-end {
@@ -199,6 +205,10 @@ h1 {
     height: 100vh;
 }
 
+/* HOME */
+
+/* LAB */
+
 .item-lab-lacrea {
     background-color: var(--black);
 }
@@ -207,15 +217,171 @@ h1 {
     background-color: var(--white);
 }
 
+.item-lab-ana {
+    background-color: var(--off-white);
+}
+
+.img-lacrea {
+    height: 40vh;
+    z-index: 2;
+    position: absolute;
+}
+
+.img-car {
+    height: 70vh;
+    margin-top: 10px;
+}
+
+.img-car- {
+    height: 20vh;
+}
+
+.lab-lacrea-div {
+    position: absolute;
+    text-align: center;
+    gap: 230px;
+}
+
+.lab-lacrea-text {
+    color: var(--green);
+}
+
+/* ABOUT */
+
+.item-hard {
+    background-color: var(--black);
+}
+
+.img-stickers{
+    height: 7vh;
+    margin-right: 15px;
+}
+
+.tools{
+    color: var(--white);
+    margin: 20px 0;
+}
+
+.tools-left{
+    margin-right: auto;
+    margin-left: 150px;
+    margin-bottom: 150px;
+}
+
+.tools-title{
+    margin-top: 100px;
+}
+
+.age--{
+    margin-right: 100px;
+}
+
+.item-aspais {
+    background-color: var(--blue);
+}
+
+.img-aspais, .img-aspais- {
+    margin-top: 23px;
+    margin-right: 20px;
+}
+
+.img-aspais {
+    height: 100px;
+}
+
+.img-aspais- {
+    height: 130px;
+}
+
+.img-sio {
+    height: 170px;
+    padding: 0px 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.img-camp {
+    height: 675px;
+}
+
+.img-camp- {
+    height: 475px;
+}
+
+
+/* IT */
+
+.it{
+    margin-top: 200px;
+}
+
+.item-monitoring{
+    background-color: var(--red);
+}
+
+.color-monitoring{
+    color: var(--home);
+}
+
+.deco-none{
+    text-decoration: none;
+}
+
+.div-monitoring{
+    margin: 0 60px;
+}
+
+.img-monitoring, .img-process{
+    height: 40vh;
+}
+
+
 .item-about {
     background-color: var(--white);
     position: relative;
     z-index: 10;
 }
 
-.item-lab-ana {
+.card-veille{
+    margin: 10Opx;
+  }
+  
+  .img-veille{
+    object-fit: cover;
+    width: 600px;
+    border-radius: 2px;
+    padding: 5px 0;
+  }
+
+  .card-content-grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card {
+    /*border: 1px solid #ccc;*/
+    padding: 20px;
+    margin: 100px;
+    border-radius: 8px;
+    color: #fff;
+  }
+
+  .monitoring-h1{
+    margin: 100px 0 0 0 ;
+  }
+
+  .monitoring-h5{
+    color: var(--grey);
+    font-weight: normal;
+  }
+
+  /* Process */
+
+  .bg-process{
     background-color: var(--off-white);
-}
+    padding: 100px 0;
+  }
+
 
 /* Footer Styles */
 footer {
@@ -236,9 +402,6 @@ footer img {
     height: 20px;
 }
 
-.center-footer {
-    margin: 0 60px 0 20px;
-}
 
 footer div {
     display: flex;
@@ -255,29 +418,6 @@ footer div {
     color: var(--white);
 }
 
-/* ABOUT */
-
-.age--{
-    margin-right: 100px;
-}
-
-/* IT */
-
-.item-monitoring{
-    background-color: var(--red);
-}
-
-.color-monitoring{
-    color: var(--home);
-}
-
-.div-monitoring{
-    margin: 0 60px;
-}
-
-.img-monitoring, .img-process{
-    height: 40vh;
-}
 
 /* Utility Classes */
 .relative {
@@ -329,67 +469,6 @@ footer div {
 
 .size-xl-text {
     font-size: 8em;
-}
-
-.img-aspais, .img-aspais- {
-    margin-top: 23px;
-    margin-right: 20px;
-}
-
-.img-aspais {
-    height: 100px;
-}
-
-.img-aspais- {
-    height: 130px;
-}
-
-.bg {
-    background-color: blueviolet;
-}
-
-.img-sio {
-    height: 170px;
-    padding: 0px 20px;
-    margin-top: 10px;
-    margin-left: 20px;
-}
-
-.img-camp {
-    height: 675px;
-}
-
-.img-camp- {
-    height: 475px;
-}
-
-.img-lacrea {
-    height: 40vh;
-    z-index: 2;
-    position: absolute;
-}
-
-.img-car {
-    height: 70vh;
-    margin-top: 10px;
-}
-
-.img-car- {
-    height: 20vh;
-}
-
-.img-sticker{
-    height: 26vh;
-    }
-
-.lab-lacrea-div {
-    position: absolute;
-    text-align: center;
-    gap: 230px;
-}
-
-.lab-lacrea-text {
-    color: var(--green);
 }
 
 .z-direction {
@@ -493,7 +572,7 @@ footer div {
 }
 
 .hard {
-    margin: 30% 0 0 0;
+    margin: 15% 0 0 0;
 }
 
 .dev-text {
@@ -504,6 +583,8 @@ footer div {
 .dev-years {
     color: var(--gold);
 }
+
+
 
 /* FOR MOBILE */
 
@@ -644,10 +725,6 @@ footer div {
 .item-about {
     position: relative;
     z-index: 10;
-}
-
-.hard{
-    margin: 5% 0 0 0;
 }
 
 /* Footer Styles */
